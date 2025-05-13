@@ -130,11 +130,12 @@ console.log("Exercise 6:", userProfile)
 //    arguments.
 //
 // Your code here:
-
-function partsOfSpeech(noun = 'cat', adjective = 'orange') {
-    return noun + adjective;
+function partsOfSpeech(noun = "cat", adjective = "orange") {
+    console.log(`Exercise 8: The ${noun} is ${adjective}`)
 }
+
 partsOfSpeech()
+
 
 // ! Exercise 9:
 // a. Convert the following `if...else` statement into a ternary:
